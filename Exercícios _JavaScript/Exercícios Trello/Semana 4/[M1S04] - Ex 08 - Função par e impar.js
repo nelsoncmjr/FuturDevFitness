@@ -1,0 +1,1 @@
+// Implemente uma função que determine se um número é par ou ímpar.

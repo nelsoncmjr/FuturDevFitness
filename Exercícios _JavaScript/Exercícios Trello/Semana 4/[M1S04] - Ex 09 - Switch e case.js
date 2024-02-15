@@ -1,0 +1,1 @@
+// Use um switch para exibir mensagens diferentes com base em uma condição.
