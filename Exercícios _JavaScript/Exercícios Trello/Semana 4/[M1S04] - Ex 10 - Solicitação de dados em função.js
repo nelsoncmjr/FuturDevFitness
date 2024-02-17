@@ -2,8 +2,7 @@
 // e a partir da idade fornecida, exiba uma mensagem informando se ele é maior de idade ou não.
 // Considere 18 anos como maior idade..
 
-let idade = window.prompt("Digite sua idade");
-let idadeInt = Number(idade);
+let idade = Number(window.prompt("Digite sua idade"));
 
 function idadeFuncao(menorMaior) {
   if (menorMaior >= 18) {
@@ -13,4 +12,4 @@ function idadeFuncao(menorMaior) {
   }
 }
 
-idadeFuncao(idadeInt);
+idadeFuncao(idade);

@@ -1,8 +1,7 @@
 // Crie uma função que receba o valor de uma hora qualquer, e exibe no console uma mensagem de
 //  “bom dia”, “boa tarde” ou “boa noite”, de acordo com a hora passada.
 
-let queHorasSao = window.prompt("Que horas são?");
-let horas = Number(queHorasSao);
+let queHorasSao = Number(window.prompt("Que horas são?"));
 
 function hora(qualHorario) {
   if (qualHorario >= 6 && qualHorario <= 12) {
@@ -14,4 +13,4 @@ function hora(qualHorario) {
   }
 }
 
-hora(horas);
+hora(queHorasSao);
