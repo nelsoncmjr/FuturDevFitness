@@ -1,7 +1,6 @@
 // Implemente uma função que determine se um número é par ou ímpar.
 
-let num1 = window.prompt("Digite um número");
-let numeroInteiro = Number(num1);
+let num1 = Number(window.prompt("Digite um número"));
 
 function parImpar(numero) {
   if (numero % 2 === 0) {
@@ -11,4 +10,4 @@ function parImpar(numero) {
   }
 }
 
-parImpar(numeroInteiro);
+parImpar(num1);
