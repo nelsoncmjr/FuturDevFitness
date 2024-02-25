@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+#titulo1 {
+  display: flex;
+  color: red;
+  justify-content: center;
+  align-items: center;
+}
+
+#cabeça {
+  display: flex;
+  color: orange;
+  justify-content: center;
+  align-items: center;
+}
+
+.sessao {
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
