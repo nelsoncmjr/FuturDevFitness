@@ -4,18 +4,20 @@
 }
 
 .sidebar {
-  flex-direction: column; /* Organiza os itens do menu verticalmente */
+  flex: 1;
+  flex-direction: column;
+  text-align: left;
   list-style: none;
   background-color: #333;
   width: 200px; /* Largura fixa para o menu vertical */
 }
 
 .sidebar a {
-  text-align: left;
+  text-align: right;
   padding: 10px;
   text-decoration: none;
   color: white;
-  border-bottom: 1px solid white; /* Separa visualmente os itens do menu */
+  border-bottom: 1px solid white; /* Separa visualmente os itens do menu*/
 }
 
 .header {
