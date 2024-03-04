@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  flex-direction: column; /* Organiza os itens do menu verticalmente */
+  list-style: none;
+  background-color: #333;
+  width: 200px; /* Largura fixa para o menu vertical */
+}
+
+.sidebar a {
+  text-align: left;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white; /* Separa visualmente os itens do menu */
+}
+
+.header {
+  flex: 2;
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 1rem;
+}
+
+.content {
+  flex: 4;
+  background-color: #27ae60;
+  color: #fff;
+  padding: 1rem;
+}
