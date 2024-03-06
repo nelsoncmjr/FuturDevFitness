@@ -1,19 +1,26 @@
 .container {
-  display: flex;
-  height: 100vh;
+  display: grid;
+  grid-template-areas:
+  "header header header"
+  "sidebar content content"
+  "footer footer footer";
 }
 
-.menu-vertical {
+.menu-lateral {
   display: flex;
   flex-direction: column; /* Organiza os itens do menu verticalmente */
   list-style: none;
   background-color: #333;
   width: 200px; /* Largura fixa para o menu vertical */
 }
-.menu-vertical a {
+.menu-lateral a {
   text-align: left;
   padding: 10px;
   text-decoration: none;
   color: white;
   border-bottom: 1px solid white; /* Separa visualmente os itens do menu */
+}
+
+.header{
+  grid-template-rows: 200px auto 1fr;
 }

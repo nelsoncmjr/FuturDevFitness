@@ -6,6 +6,7 @@
 .sidebar {
   flex: 1;
   flex-direction: column;
+  display: flex;
   text-align: left;
   background-color: #333;
   width: 200px; /* Largura fixa para o menu vertical */
