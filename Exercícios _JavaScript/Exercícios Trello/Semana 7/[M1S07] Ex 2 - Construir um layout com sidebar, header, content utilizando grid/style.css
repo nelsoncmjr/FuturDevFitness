@@ -1,26 +1,36 @@
 .container {
   display: grid;
   grid-template-areas:
-  "header header header"
-  "sidebar content content"
-  "footer footer footer";
+    "header header header header"
+    "sidebar content content content";
 }
 
-.menu-lateral {
-  display: flex;
-  flex-direction: column; /* Organiza os itens do menu verticalmente */
-  list-style: none;
+header {
+  grid: 100px / 1fr 1fr;
+  grid-area: header;
   background-color: #333;
-  width: 200px; /* Largura fixa para o menu vertical */
-}
-.menu-lateral a {
-  text-align: left;
-  padding: 10px;
-  text-decoration: none;
-  color: white;
-  border-bottom: 1px solid white; /* Separa visualmente os itens do menu */
+  color: #fff;
+  padding: 1rem;
 }
 
-.header{
-  grid-template-rows: 200px auto 1fr;
+aside {
+  grid-area: sidebar;
+  /* align-items: left;
+  justify-content: left; */
+  background-color: blue;
+  padding: 1rem;
+}
+
+#lista {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+main {
+  grid-area: content;
+  background-color: #a11515;
+  padding: 1rem;
 }
